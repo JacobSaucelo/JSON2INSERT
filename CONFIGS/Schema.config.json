@@ -1,0 +1,11 @@
+{
+  "table": "[YourDatabase].[dbo].[YourTable]",
+  "mapping": {
+    "Mfr": "MFR",
+    "Model": "MODEL",
+    "DateCreated": { "value": "GETDATE()", "raw": true },
+    "CreatedBy": { "value": "JSaucelo", "raw": false },
+    "DateModified": { "value": "GETDATE()", "raw": true },
+    "ModifiedBy": { "value": "JSaucelo", "raw": false }
+  }
+}
